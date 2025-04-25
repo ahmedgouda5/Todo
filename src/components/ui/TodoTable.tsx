@@ -9,10 +9,10 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table";
+} from "./table";
 import { ITodo } from "../../../Interfaces";
 import DelTodo from "../DelTodo";
-import { Badge } from "@/components/ui/badge"
+import { Badge } from "./badge"
 
 export default function TodoTable( {todos}:{todos:ITodo[]}) {
 

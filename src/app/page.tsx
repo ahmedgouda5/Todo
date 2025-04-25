@@ -1,10 +1,10 @@
-import AddTodoForm from "@/components/AddTodoForm";
-import { ModeToggle } from "@/components/ui/toggleTheme";
-import TodoTable from "@/components/ui/TodoTable";
-import { getTodos } from "../actions/Todoactions";
-import Nav from "@/components/ui/nav";
+import AddTodoForm from "../components/AddTodoForm";
+import { ModeToggle } from "../components/ui/toggleTheme";
+import TodoTable from "../components/ui/TodoTable";
+import Nav from "../components/ui/nav";
 import { auth } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
+import { getTodos } from "../../actions/Todoactions";
 const page = async () => {
   const { userId } = await auth();
 
