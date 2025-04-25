@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/node"
+      }
+    ],
+    "env": {
+      "CLERK_FRONTEND_API": "pk_test_Y3Jpc3Atd3Jlbi01NC5jbGVyay5hY2NvdW50cy5kZXYk",
+      "DATABASE_URL": "mongodb+srv://codeawy:ahmed123@cluster0.naqgmhu.mongodb.net/todo"
+    }
+  }
+  
