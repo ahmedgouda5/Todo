@@ -2,6 +2,7 @@
 const nextConfig = {
   experimental: {
     serverActions: true,
+    appDir: true, // 👈 دي لازم تتكتب
   },
 };
 
